@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://beautyroom-samara.ru/sitemap.xml

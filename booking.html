@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Онлайн-запись Beauty Room — Самара</title>
+  <meta name="description" content="Онлайн-запись в Beauty Room на Ново-Садовой, 19.">
+  <link rel="canonical" href="https://beautyroom-samara.ru/booking/">
+  <link rel="stylesheet" href="./assets/styles.css">
+  <script defer src="./assets/script.js"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BeautySalon",
+    "name": "Beauty Room",
+    "telephone": "+7 (939) 700-62-24",
+    "address": "Самара, Ново-Садовая, 19",
+    "url": "https://beautyroom-samara.ru",
+    "priceRange": "₽",
+    "aggregateRating": {"@type":"AggregateRating","ratingValue":"5.0","ratingCount":"6"}
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="./index.html">Beauty<span>Room</span></a>
+    <button class="menu-btn" type="button" aria-label="Открыть меню" aria-controls="siteNav">☰</button>
+    <nav class="nav" id="siteNav"><a href="./index.html">Главная</a><a href="./services/index.html">Услуги</a><a href="./prices.html">Цены</a><a href="./masters/index.html">Специалисты</a><a href="./portfolio.html">Фото</a><a href="./reviews.html">Отзывы</a><a href="./faq.html">FAQ</a><a href="./contacts.html">Контакты</a><a class="nav-cta" href="./booking.html">Записаться</a></nav>
+  </header>
+  <main>
+<section class="page-hero">
+  <p class="eyebrow">Запись</p>
+  <h1>Записаться в Beauty Room</h1>
+  <p class="lead">Выберите услугу или специалиста. Beauty Room работает по предварительной записи.</p>
+</section>
+<section class="section">
+<form class="booking-form" id="bookingForm">
+  <label>Имя<input name="name" required placeholder="Анна"></label>
+  <label>Телефон<input name="phone" required placeholder="+7 999 123-45-67"></label>
+  <label>Услуга<select name="service"><option>Комплекс: Оформление бровей + Протеиновая реконструкция бровей</option><option>Коррекция бровей</option><option>Мужская коррекция бровей</option><option>Оформление бровей (коррекция краской/хной)</option><option>Карбокситерапия</option><option>Классический массаж лица 40 мин</option><option>Комбинированная чистка</option><option>Комплексный уход по типу и проблеме кожи</option><option>Консультация (без процедуры)</option><option>Механическая чистка</option><option>Микронидлинг (курс, цена за 1 процедуру)</option><option>Мультикислотный пилинг (курс, цена за 1 процедуру)</option><option>Парафинотерапия ног</option><option>Парафинотерапия рук</option><option>Пилинг PeelArm EPIGEN (курс, цена за 1 процедуру)</option><option>Пилинги MediDerma</option><option>Процедура "Безупречный овал" (комплексный уход с массажем лица)</option><option>Процедура "Витаминная бомба"</option><option>Процедура "Гейша"</option><option>Процедура "Коррекция фигуры"</option><option>Процедура "Лицо на выход"</option><option>Процедура "Руки принцессы"</option><option>Процедура "Суперувлажнение"</option><option>Ультразвуковая чистка</option><option>Ферментативная чистка (+ беременным, ГВ)</option><option>Ботокс ресниц и бровей</option><option>Ламинирование ресниц</option><option>Ламинирование ресниц + ботокс</option><option>Окрашивание ресниц</option><option>Окрашивание ресниц + ботокс</option><option>Ботокс ресниц</option><option>Маникюр + Гель лак</option><option>Маникюр без покрытия</option><option>Маникюр Детский</option><option>Маникюр мужской</option><option>Ремонт 1 ногтя</option><option>Укрепление гелем/акрилом (доп услуга к маникюру)</option><option>Педикюр Детский</option><option>Педикюр Мужской</option><option>Педикюр пальчики + Гель лак</option><option>Педикюр пальчики без покрытия</option><option>Педикюр полный + Гель лак</option><option>Педикюр полный без покрытия</option><option>Брови - Волосковый гиперреализм</option><option>Брови - пудровая растушевка</option><option>Веки (растушевка к стрелке)</option><option>Веки (Стрелка верхняя + нижняя)</option><option>Веки (Стрелка верхняя)</option><option>Губы</option><option>Коррекция 1 зоны</option><option>Консультация без процедуры</option><option>Лечебный педикюр при грибковом поражении ногтей и стоп</option><option>Лечение вросшего ногтя-аппаратная обработка 1 ногтя стопы</option><option>Удаление стержневых мозолей</option><option>Установка корректирующей системы «титановая нить»- Вторичный приём</option><option>Установка корректирующей системы «титановая нить»- Первичный приём</option></select></label>
+  <label>Специалист<select name="master"><option>Любой специалист</option><option>Анна Некрасова</option><option>Беленькая Екатерина</option><option>Гуреева Виктория</option><option>София</option><option>Семёнова Юлия</option><option>Владимир</option></select></label>
+  <label>Дата<input type="date" name="date" required></label>
+  <label>Комментарий<textarea name="comment" placeholder="Удобное время, пожелания или вопрос"></textarea></label>
+  <label class="checkbox"><input type="checkbox" required><span>Согласен/согласна на обработку персональных данных</span></label>
+  <button class="btn primary" type="submit">Отправить заявку</button>
+  <p class="form-note">-форма: после подключения  заявка будет уходить администратору автоматически.</p>
+</form>
+</section>
+</main>
+  <footer class="footer">
+    <section>
+      <h2>Beauty Room</h2>
+      <p>Beauty Room — пространство красоты и заботы о себе в центре Самары. Здесь работают специалисты по косметологии, ногтевому сервису, оформлению ресниц и бровей, перманентному макияжу и подологии, помогая каждому гостю чувствовать себя уверенно и комфортно.</p>
+    </section>
+    <section>
+      <h3>Контакты</h3>
+      <p>+7 (939) 700-62-24</p>
+      <p>Самара, Ново-Садовая, 19</p>
+      <p>Работаем по предварительной записи</p>
+    </section>
+    <section>
+      <h3>Документы</h3>
+      <a href="./legal/privacy.html">Политика конфиденциальности</a>
+      <a href="./legal/personal-data.html"></a>
+      <a href="./legal/reminders.html"></a>
+    </section>
+  <div class="footer-bottom"><p>© Beauty Room • Все права защищены • Политика конфиденциальности</p></div>
+</footer>
+</body>
+</html>
